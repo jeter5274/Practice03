@@ -6,10 +6,10 @@ public class Ex20 {
 
 	public static void main(String[] args) {
 	
-		int answer=29, num=0;
+		int answer, num=0;
 		Scanner sc = new Scanner(System.in);
 		
-		//answer = (int)(Math.random() * 100 + 1);	//1~100 난수 생성
+		answer = (int)(Math.random() * 100 + 1);	//1~100 난수 생성
 		
 		while(true) {
 			
@@ -36,7 +36,7 @@ public class Ex20 {
 				}else if(endgame == 'n' ) {
 					
 					num = 0;	//num이 초기화 안되면 이미 29가 입력된 상태이므로 문제를 다시 풀 수 없음
-					//answer = (int)(Math.random() * 100 + 1);	//난수 재생성
+					answer = (int)(Math.random() * 100 + 1);	//난수 재생성
 					continue;
 					
 				}else {
